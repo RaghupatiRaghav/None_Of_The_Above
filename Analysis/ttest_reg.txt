@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   DPSi   R-squared:                       0.096
+Model:                            OLS   Adj. R-squared:                  0.096
+Method:                 Least Squares   F-statistic:                     680.4
+Date:                Mon, 21 Aug 2023   Prob (F-statistic):               0.00
+Time:                        08:30:26   Log-Likelihood:                 3954.6
+No. Observations:               20447   AIC:                            -7901.
+Df Residuals:                   20443   BIC:                            -7870.
+Df Model:                           3                                         
+Covariance Type:                  HC3                                         
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -0.0779      0.007    -11.875      0.000      -0.091      -0.065
+n_ind_w_nota            0.0063      0.003      1.840      0.066      -0.000       0.013
+last_position_dummy     0.1222      0.006     21.264      0.000       0.111       0.134
+position_on_evm_ind     0.0077      0.003      2.256      0.024       0.001       0.014
+==============================================================================
+Omnibus:                     2832.376   Durbin-Watson:                   2.649
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5043.956
+Skew:                           0.909   Prob(JB):                         0.00
+Kurtosis:                       4.618   Cond. No.                         35.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
