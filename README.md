@@ -3,7 +3,7 @@
 ## Description and Background: 
 This project explores how NOTA votes in India impact the vote share of independent candidates. This repository consists of the following directories and files:
 
-1. Publication/final_paper : Contains introduction, literature review, methodology, results, conclusion and appendices. This document is the torso of the project. Interested reader should start here. A skimming reader should also start here but can skip literature review, methodology, and the appendices.     
+1. Publication/final_paper [Link](https://www.tandfonline.com/doi/abs/10.1080/02185377.2023.2265372): Contains introduction, literature review, methodology, results, conclusion and appendices. This document is the torso of the project. Interested reader should start here. A skimming reader should also start here but can skip literature review, methodology, and the appendices.     
 
 2. Code : Documents codes used to produce figures and tables used in NOTA_Mugwumps.pdf. These files are for the meticulous reader who wants to verify the project results for him/herself. All codes are written in Python3.
    * 2.1. Code/01_input_dataprep.ipynb : Codes for cleaning the input data sourced from LokDhaba. Read Data/ancillary_files/pre_processing_data_meta.txt for more details.
